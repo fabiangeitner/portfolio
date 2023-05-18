@@ -1,7 +1,10 @@
 import Navbar from "@/components/Navbar";
-import "./globals.css";
-import { Montserrat } from "next/font/google";
 import Contact from "@/sections/Contact";
+import { Montserrat } from "next/font/google";
+
+//Styles
+import "./globals.css";
+import "../components/styles/Base.css";
 
 const montserrat = Montserrat({
   weight: ["400", "700"],

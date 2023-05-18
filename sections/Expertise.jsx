@@ -2,7 +2,7 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <div>
+    <div className="w-full h-[90vh] bg-[lightblue]">
       <p>Expertise</p>
     </div>
   );

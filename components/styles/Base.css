@@ -1,0 +1,35 @@
+.headline_1 {
+  font-size: 64px;
+  line-height: 150%;
+  margin: 0 0 20px 0;
+}
+
+.headline_2 {
+  font-size: 32px;
+  line-height: 150%;
+  margin: 0 0 20px 0;
+}
+
+.headline_3 {
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0 0 20px 0;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 120%;
+  margin: 0 0 15px 0;
+}
+
+.text_small {
+  font-size: 14px;
+  line-height: 120%;
+  margin: 0 0 15px 0;
+}
+
+.text_xsmall {
+  font-size: 12px;
+  line-height: 120%;
+  margin: 0 0 15px 0;
+}
