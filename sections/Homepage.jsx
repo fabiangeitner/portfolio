@@ -9,10 +9,10 @@ const Homepage = () => {
     <>
       <div className="flex flex-col items-center justify-center w-full h-[90vh] bg-white p-9 sm:p-14 md:p-[100px] lg:pt-[100px] lg:pb-[200px] lg:px-[200px]">
         <div className="w-full h-full flex flex-col justify-center align-middle items-center md:items-start bg-[#5151CC] relative">
-          <span className="text-[#8BE0FF] text-9xl font-black cursor-default">
+          <span className="text-[#8BE0FF] lg:text-9xl font-black cursor-default">
             Fabian
           </span>
-          <span className="text-[#8BE0FF] text-9xl font-black cursor-default">
+          <span className="text-[#8BE0FF] lg:text-9xl font-black cursor-default">
             Geitner
           </span>
         </div>
