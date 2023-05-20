@@ -22,7 +22,7 @@ const Homepage = () => {
         </div>
         <div className="md:absolute bottom-9 left-9 my-5 md:my-0">
           <ul className="flex gap-5">
-            <li className="text-[25px] md:text-[25px]">
+            <li className="text-[25px] md:text-[25px] hover:scale-125 transition-all duration-500 cursor-pointer">
               <Link
                 href="https://www.linkedin.com/in/fabian-geitner-abaa48246/"
                 target="_blank"
@@ -30,12 +30,12 @@ const Homepage = () => {
                 <FaLinkedin />
               </Link>
             </li>
-            <li className="text-[25px] md:text-[25px]">
+            <li className="text-[25px] md:text-[25px] hover:scale-125 transition-all duration-500 cursor-pointer">
               <Link href="https://github.com/fabiangeitner" target="_blank">
                 <FaGithub />
               </Link>
             </li>
-            <li className="text-[25px] md:text-[25px]">
+            <li className="text-[25px] md:text-[25px] hover:scale-125 transition-all duration-500 cursor-pointer">
               <Link href="mailto:fabiangeitner17@gmail.de">
                 <FaEnvelope />
               </Link>

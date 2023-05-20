@@ -3,8 +3,10 @@ import React from "react";
 const Expertise = () => {
   return (
     <div className="w-full md:min-h-[90vh] md:flex bg-[#F7F7F7]">
-      <div className="md:w-1/2 py-9">
-        <h2 className="text-7xl">Expertise</h2>
+      <div className="md:w-1/2 py-20">
+        <h2 className="text-5xl sm:text-7xl mb-20 uppercase text-slate-500 opacity-25">
+          Expertise
+        </h2>
         {/* FRONTEND */}
         <div className="w-full p-9">
           <h3 className="text-xl pb-5">01 Frontend Development</h3>
