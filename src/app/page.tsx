@@ -1,5 +1,5 @@
+// Components
 import { Button } from "@/components/ui/button";
-import React from "react";
 
 function Home() {
   return (
@@ -18,7 +18,7 @@ function Home() {
           </Button>
         </div>
         {/* Headline */}
-        <div className="py-16 px-32 bg-slate-100">
+        <div className="py-16 px-32">
           <h1 className="text-7xl font-bold text-center">Creative Developer</h1>
         </div>
 
@@ -28,6 +28,17 @@ function Home() {
           <li className="underline">developer</li>
           <li className="font-bold">design</li>
         </ul>
+      </div>
+
+      <div className="h-screen flex flex-col gap-4 justify-center items-center">
+        <Button>Default</Button>
+        <Button size="sm">Small</Button>
+        <Button size="lg">Large</Button>
+        <Button size="icon">i</Button>
+        <Button variant="destructive">Cancel</Button>
+        <Button variant="ghost">Ghost</Button>
+        <Button variant="outline">Outline</Button>
+        <Button variant="secondary">Secondary</Button>
       </div>
     </>
   );

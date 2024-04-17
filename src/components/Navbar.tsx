@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import { ModeToggle } from "./ui/toggle-mode";
 
 const Navbar = () => {
   return (
@@ -56,8 +57,15 @@ const Navbar = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <Link href="/contact" legacyBehavior passHref>
-                    <Button variant="outline">Get in touch</Button>
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      Kontakt
+                    </NavigationMenuLink>
                   </Link>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <ModeToggle />
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
